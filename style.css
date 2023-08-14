@@ -1,0 +1,88 @@
+body {
+  font-size: 15px;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+img {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+h1 {
+  margin-left: 10%;
+
+  font-family: "Big Shoulders Display";
+  color: hsla(0, 0%, 95%);
+}
+
+p {
+  margin-left: 10%;
+  margin-right: 44%;
+
+  font-family: "Lexend Deca";
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+  margin-top: 15%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+
+  font-family: "Lexend Deca";
+  padding: 3% 6%;
+
+  border: none;
+  border-radius: 20px;
+  background-color: hsla(0, 0%, 95%);
+  cursor: pointer;
+}
+
+#sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+#sedans button {
+  color: hsl(31, 77%, 52%);
+}
+
+#sedans button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: solid;
+  border-color: hsl(0, 0%, 95%);
+}
+
+#suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+#suvs button {
+  color: hsl(184, 100%, 22%);
+}
+
+#suvs button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: solid;
+  border-color: hsl(0, 0%, 95%);
+}
+
+#luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+#luxury button {
+  color: hsl(179, 100%, 13%);
+}
+
+#luxury button:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: solid;
+  border-color: hsl(0, 0%, 95%);
+}
